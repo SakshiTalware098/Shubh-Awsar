@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #00000d;
+  }
+    
+  .top-left {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    color: #00000d;
+    font: normal 56px 'Cookie', cursive;
+  }
+  a { 
+    color: inherit;
+    text-decoration: none;
+ }
+
+  .top-left a:hover{
+    color: #ffc0cb;
+}
+
+.top-right {
+    position: absolute;
+    top: 80px;
+    right: 64%;
+    font-size: 1.5rem;
+    color: #00000d;
+  }
+
+.image-grid {
+	--gap: 16px;
+	--num-cols: 4;
+	--row-height: 300px;
+
+	box-sizing: border-box;
+	padding: var(--gap);
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 8fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+}
+
+.image-grid>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.image-grid-col-2 {
+	grid-column: span 2;
+}
+
+.image-grid-row-2 {
+	grid-row: span 2;
+}
+
+
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		--num-cols: 2;
+		--row-height: 200px;
+	}
+}
+
+
+.header{
+    width:100%;
+    height: 30px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 20;
+    box-shadow: 0 0 10px #fcfbfb5d;
+    background: none;
+}
+
