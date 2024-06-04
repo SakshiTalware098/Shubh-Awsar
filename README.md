@@ -30,3 +30,5 @@ Now simply open new tab in chrome and type the following command :
 And there we go.. here's your WEBSITE ready for uhh.
 
 THANK YOU!
+
+![image](https://github.com/SakshiTalware098/Shubh-Awsar/assets/100411378/00d5b16d-a7a8-436d-9b2f-026a7d66c59a)
